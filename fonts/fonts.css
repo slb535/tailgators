@@ -1,0 +1,13 @@
+
+
+@font-face {
+    font-family: 'you_are_lovedregular';
+    src: url('you_are_loved-webfont.eot');
+    src: url('you_are_loved-webfont.eot?#iefix') format('embedded-opentype'),
+         url('you_are_loved-webfont.woff') format('woff'),
+         url('you_are_loved-webfont.ttf') format('truetype'),
+         url('you_are_loved-webfont.svg#you_are_lovedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

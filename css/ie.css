@@ -1,0 +1,31 @@
+/*
+    Document   : ie
+    Created on : Jun 8, 2013, 10:35:45 PM
+    Author     : shari
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.home img {
+    margin-left: 4px;
+}
+
+
+.main, .home {
+    margin-top: 120px;
+    min-height: 600px;
+}
+
+.navigation{
+    margin-top: 150px;
+}
+
+.tagline {
+    margin-left: 180px;
+    margin-top: -10px;
+    font-size: 3.5em;
+}
+
+.stripe  {
+    top: 550px;
+}

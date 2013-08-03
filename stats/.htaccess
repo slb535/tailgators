@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName " Statistics"
+AuthName "premiercatering-chicago.com Statistics"
+AuthUserFile /var/chroot/home/content/55/11236355/html/stats/.statspwd
+Require valid-user
+DirectoryIndex index.html
