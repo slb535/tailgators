@@ -454,7 +454,7 @@ img.tryptych {
     min-height: 450px;
 }
 
-.menu .article {
+.menu .article, .gallery .article {
     margin-top:0
 }
 
@@ -745,7 +745,7 @@ img { border: 0; max-width: 100%; }
 }
 
 .photos ul li a img {
-    border: 3px solid #666;
+    border: 3px solid #463B34;
 }
 
 /* footer */
