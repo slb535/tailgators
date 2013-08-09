@@ -211,8 +211,8 @@ h1 {
     background: #85ab70;
     color: #fff;
     text-align: right;
-    margin-right: -47px;
-    padding: 0 1.5em 0 0; /*.1em .5em;*/
+    margin-right: -35px;
+    padding: 0 1.1em 0 0; /*.1em .5em;*/
     /* margin: 0 0 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
 }
 .ribbon:after {
@@ -225,7 +225,7 @@ h1 {
 }
 
 .ribbon:after {
-    right: -.65em;
+    right: -.9em;
     border-left-width: 1em;
     border-right-color: transparent;
 }
@@ -235,12 +235,12 @@ h1 {
     display: block;
     border-style: solid;
     border-color: #537836 transparent transparent transparent;
-    bottom: -1em;
+    /* bottom: -1em; */
 }
 
 .ribbon .ribbon-content:after {
     right: 0;
-    border-width: 1em 1em 0 0;
+    border-width: .8em .8em 0 0;
 }
 
 
@@ -389,8 +389,8 @@ p, li, td {
 .navigation ul li:hover ul{
     left:90px;
     width: 100px;
-    top:280px;
-    display:block;
+/*    top:150px;
+  */  display:block;
 }
 
 .navigation ul li ul li{
@@ -439,8 +439,11 @@ p, li, td {
 }
 
 img.tryptych {
-    margin-right: 7px;
+    margin-right: .4em;
+    margin-right: .4rem;
     border: solid 1px #463B34;
+    max-width: 30%;
+height: auto;
 }
 
 .article {
@@ -492,13 +495,13 @@ img.tryptych {
 
 }
 
-.shabbos li {
+.shabbos li, .takeout > ul> li {
     font-style: italic;
-    font-size: .9em;
+    font-size: .8em;
     line-height: 1.5em;
 }
 
-.shabbos li span {
+.shabbos li span, .takeout li span {
     font-style: normal;
     font-size: 1em;
 }
@@ -643,7 +646,7 @@ h2.subtag {
     padding-top: 0;
 }
 
-.shabbos ul li {
+.shabbos ul li, .takeout ul li {
     font-size: .9em;
     letter-spacing: 1px;
 }
@@ -972,7 +975,7 @@ img { border: 0; max-width: 100%; }
     }
 
     .navigation {
-        /*  margin-top: 120px;*/
+      /* margin-top: 100px; */
         margin-left: 10px;
     }
 
@@ -986,11 +989,12 @@ img { border: 0; max-width: 100%; }
         margin-top: 0
     }
 
-    .top-nav ul li {
-        letter-spacing: 0;
+   .top-nav ul li, .takeout ul li {
+       /*  letter-spacing: 0;
         padding-right: 0;
-        padding-left: 0;
-    }
+        padding-left: 0;*/
+		font-size: .75em;
+    } 
 
     .navigation ul li:hover ul{
         left:50%;
@@ -998,7 +1002,6 @@ img { border: 0; max-width: 100%; }
         /* top:10px; */
     }
     .top-nav {
-        font-size: .9em;
         width:75%;
         margin-left: 10px;
     }
@@ -1007,6 +1010,23 @@ img { border: 0; max-width: 100%; }
         margin-left: 16px;
         margin-top: 100px;
     }
+	
+	span {
+font-style: normal;
+font-size: .75em;
+
+}
+
+.top-nav {
+width: 65%;
+margin-left: 30px;
+font-size: .75em;
+}
+
+span {
+font-style: normal;
+font-size: .75em;
+}
 
 }
 
@@ -1017,7 +1037,7 @@ img { border: 0; max-width: 100%; }
         height: auto;
     }
 
-    h1 {
+    .ribbon {
         font-size: 1.6em;
     }
     h2.subtag {
@@ -1027,7 +1047,7 @@ img { border: 0; max-width: 100%; }
     img.tryptych {
         display: none;
     }
-
+	
 
     .navigation li {
         font-size: 1em;
@@ -1045,6 +1065,10 @@ img { border: 0; max-width: 100%; }
         font-size: .8em;
     }
 
+.article {
+margin-top: 55px;
+margin-left: 20px;
+}
 
 
 }
