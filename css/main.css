@@ -410,6 +410,9 @@ p, li, td {
     text-decoration: none;
 }
 
+.navigation ul li ul.sub-nav {
+    margin-top: 0;
+}
 
 .header {
 }
